@@ -32,8 +32,5 @@ Proyecto culminado.
 Si deseas cerrar el db.json -> **Ctrl + C** <br/>
 IMPORTANTE: Mantener la terminal corriendo para la correcta ejecución del backend local.
 
-## ▶️ Prueba la Aplicación Web - Github Pages
-* Github Pages => [PetShop](https://k3yjey.github.io/javascript-CRUD_JSAsincrono/)
-
 ## 💻 Contacto
 * Linkedin => [Clic aquí](https://www.linkedin.com/in/k3yjey-dev/)
