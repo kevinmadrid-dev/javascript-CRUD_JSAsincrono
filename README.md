@@ -20,17 +20,29 @@ Proyecto culminado.
 * Carpeta service: Contie los servicios del cliente; Nuevo, editar y eliminar cliente.
 
 ## ⚙️ Comandos necesarios
-*  ```npm install -g json server ``` <br/>
+``` console
+npm install -g json server
+```
 //Instalar json server
 
-* ```json server``` <br/>
+``` console
+json server
+```
 //Verificar el estado del json server 
 
-*  ```json-server --watch db.json ``` <br/>
+``` console
+json-server --watch db.json
+```
 //Visualizar archivos del db.json, desplegar url con la información contenida en el db.json
 
-Si deseas cerrar el db.json -> **Ctrl + C** <br/>
-IMPORTANTE: Mantener la terminal corriendo para la correcta ejecución del backend local.
+``` console
+Ctrl + C 
+``` 
+//Si deseas culminar el servidor react.
+
+<br/>
+
+**IMPORTANTE: Mantener la terminal corriendo para la correcta ejecución de la app.**
 
 ## 💻 Contacto
 * Linkedin => [Clic aquí](https://www.linkedin.com/in/k3yjey-dev/)
