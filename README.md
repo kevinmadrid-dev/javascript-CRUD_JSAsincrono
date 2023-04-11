@@ -23,22 +23,22 @@ Proyecto culminado.
 ``` console
 npm install -g json server
 ```
-//Instalar json server
+↑ Instalar json server
 
 ``` console
 json server
 ```
-//Verificar el estado del json server 
+↑ Verificar el estado del json server 
 
 ``` console
 json-server --watch db.json
 ```
-//Visualizar archivos del db.json, desplegar url con la información contenida en el db.json
+↑ Visualizar archivos del db.json, desplegar url con la información contenida en el db.json
 
 ``` console
 Ctrl + C 
 ``` 
-//Si deseas culminar el servidor react.
+↑ Si deseas culminar el servidor react.
 
 <br/>
 
