@@ -1,48 +1,41 @@
-# Javascript - CRUD con Javascript Asíncrono
+# CRUD App Web with Asynchronous Javascript
 
-## 📦 Sobre el repositorio
-Carpeta contenedora del curso "Javascript en la Web: CRUD con Javascript Asíncrono", en la cual se encontrarán archivos referentes al sistema de registro de clientes para una web page, permitiendo añadir, editar y eliminar los mismos. Todo esto será trabajado con el sistema CRUD y funciones Async/await.
+### Description
 
-## ✔️ [El respositorio aquí](https://github.com/K3yJey/javascript-CRUD_JSAsincrono.git)
+CRUD web app, and Async/await functions.
 
-## 🔧 Tecnologías utilizadas
-* ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-* ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
-* ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+### Technologies
 
-## 📌 Comentarios adicionales 
-Proyecto culminado.
+- ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+- ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+- ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
-## 📂 División/Organización de la carpeta
-* Carpeta assets: Contiene los archivos CSS y las imgs.
-* Carpeta controllers: Contiene los controladores para registro, actualizar y cliente.
-* Carpeta screens: Contiene las pantallas para cada pestaña de la web page.
-* Carpeta service: Contie los servicios del cliente; Nuevo, editar y eliminar cliente.
+### Aditionals Commets
 
-## ⚙️ Comandos necesarios
-``` console
+Project completed.
+
+### Getting started
+
+↓ Install json server
+
+```console
 npm install -g json server
 ```
-↑ Instalar json server
 
-``` console
+↓ Check json server status
+
+```console
 json server
 ```
-↑ Verificar el estado del json server 
 
-``` console
+↓ Display db.json files, display url with information contained in db.json
+
+```console
 json-server --watch db.json
 ```
-↑ Visualizar archivos del db.json, desplegar url con la información contenida en el db.json
 
-``` console
-Ctrl + C 
-``` 
-↑ Si deseas culminar el servidor react.
+**IMPORTANT: Keep the terminal running for the correct execution of the app **.
 
-<br/>
+### Developer contact
 
-**IMPORTANTE: Mantener la terminal corriendo para la correcta ejecución de la app.**
-
-## 💻 Contacto
-* Linkedin => [Clic aquí](https://www.linkedin.com/in/k3yjey-dev/)
+[LinkedIn](https://www.linkedin.com/in/k3yjey-dev/)

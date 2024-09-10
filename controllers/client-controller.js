@@ -1,9 +1,9 @@
 import { clientServices } from "../service/client-service.js";
 
 const crearNuevaLinea = (nombre, email, id) => {
-    const linea = document.createElement("tr");
+  const linea = document.createElement("tr");
 
-    const contenido = `
+  const contenido = `
     <td class="td" data-td> ${nombre}</td>
     <td>${email}</td>
     <td>
@@ -18,25 +18,29 @@ const crearNuevaLinea = (nombre, email, id) => {
                 </button>
             </li>
         </ul>
-    </td>`
-    linea.innerHTML = contenido;
+    </td>`;
+  linea.innerHTML = contenido;
 
-    const btn = linea.querySelector("button");
-    btn.addEventListener("click", () => {
-        const id = btn.id;
-        clientServices.eliminarCliente(id).then(respuesta => {
+  const btn = linea.querySelector("button");
+  btn.addEventListener("click", () => {
+    const id = btn.id;
+    clientServices
+      .eliminarCliente(id)
+      .then((respuesta) => {})
+      .catch((error) => alert("Error"));
+  });
 
-        }).catch((error) => alert("Error"));
-    });
-
-    return linea;
-}
+  return linea;
+};
 
 const table = document.querySelector("[data-table]");
 
-clientServices.listaCliente().then((data) => {
+clientServices
+  .listaCliente()
+  .then((data) => {
     data.forEach(({ nombre, email, id }) => {
-        const nuevaLinea = crearNuevaLinea(nombre, email, id);
-        table.appendChild(nuevaLinea);
+      const nuevaLinea = crearNuevaLinea(nombre, email, id);
+      table.appendChild(nuevaLinea);
     });
-}).catch((error) => alert("Error"));
+  })
+  .catch((error) => alert("Error"));
