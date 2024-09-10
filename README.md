@@ -34,7 +34,7 @@ json server
 json-server --watch db.json
 ```
 
-**IMPORTANT: Keep the terminal running for the correct execution of the app **.
+**IMPORTANT: Keep the terminal running for the correct execution of the app.**
 
 ### Developer contact
 
