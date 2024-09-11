@@ -1,4 +1,4 @@
-# CRUD App Web with Asynchronous Javascript
+# CRUD Web App with Asynchronous Javascript
 
 ### Description
 
@@ -38,4 +38,4 @@ json-server --watch db.json
 
 ### Developer contact
 
-[LinkedIn](https://www.linkedin.com/in/k3yjey-dev/)
+[LinkedIn](https://www.linkedin.com/in/kevinmadrid-dev/)
